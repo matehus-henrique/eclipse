@@ -141,6 +141,16 @@ public class CampoTeste {
 		assertTrue(campo22.isAberto()
 				 && campo11.isFechado());
 	}
+	
+	@Test
+	void alcancado() {
+	
+		Campo campo34 = new Campo(3, 4);
+		campo.objetivoAlcancado();
+		assertTrue(campo34.abrir());
+	}
+	
+	
 
 
 
